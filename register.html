@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <div class="registerPage">
+        <div class="container">
+        <div class="register">
+            <div class="registerText">Register</div><div class="text">Already have an account<a href="login.html">login</a></div>
+        </div>
+        <form id="registerForm">
+            
+                <input class="formInput" type="text" id="name" placeholder="Name" required>
+          
+            
+           
+                <input class="formInput" type="email" id="email" placeholder="Email" required>
+           
+            
+            <div class="password">
+                <input class="formInput" type="password" id="password" placeholder="Password" required>
+                <input class="formInput" type="password" id="confirm" placeholder="Confirm Password" required>
+            </div>
+            <div class="checkbox"><div>
+                <input class="formInput" type="checkbox" id="terms">
+            </div>
+            I accecpt <a href="">terms </a> and <a href="">privacy policy</a>
+            </div>
+            
+            <button class="formInput" type="submit" id="loginButton" onclick="register(event)">Register</button>
+        </form>
+            <p id="error"></p>
+         </div>
+    </div>
+         <script src="scripts/script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Table</title>
+    </head>
+    <body>
+        <div class="containerTable">
+            <div class="welcome"><p>Hi, </p><p id="userEmail"></p></div>
+            <div class="buttonDiv" >
+            <button class="buttons" onclick="colorFirstRow()">Color 1st Row Red</button>
+            <button class="buttons" onclick="colorLastRow()">Color last Row Red</button>
+            <button class="buttons" onclick="resetRowColor()">Reset colors in Rows</button>
+            </div>
+            
+            <div>
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>C1</th>
+                            <th>C2</th>
+                            <th>C3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>A</td><td>D</td><td>G</td></tr>
+                        <tr><td>B</td><td>E</td><td>H</td></tr>
+                        <tr><td>C</td><td>F</td><td>I</td></tr>
+                        <tr><td>C</td><td>F</td><td>I</td></tr>
+                        <tr><td>C</td><td>F</td><td>I</td></tr>
+                        <tr><td>C</td><td>F</td><td>I</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
