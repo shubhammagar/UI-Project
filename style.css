@@ -1,0 +1,197 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8ecf1;
+    margin: 0;
+    padding: 0;
+}
+
+
+.loginPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotPasswordPage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: auto;;
+    width: 400px;
+    flex-direction: column;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.containerTable{
+    height: auto;;
+    flex-direction: column;
+    padding: 40px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login, a{
+    font-size: .9em;
+    margin-left: 2px;
+}
+
+
+.formInput {
+    width : 90%;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+
+}
+
+#loginButton{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(90, 63, 225);
+    border: none;
+    border-radius: 5px;
+}
+
+.password input.formInput {
+    width: 100%; 
+    margin: 5px 5px; 
+  }
+  
+  .password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead {
+    background-color: rgb(90, 63, 225); 
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+a,.text {
+    font-size: .9em;
+
+}
+
+
+
+.buttonDiv {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 2px;
+  }
+  
+  .buttonDiv button {
+   background-color: #f9f9f9;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ 
+
+.red-row{
+    background-color: red !important;
+    color: white;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 3px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ a{
+    font-size: .9em;
+    margin-left: 2px;
+    color: rgb(90, 63, 225);
+}
+
+.registerText{
+    font-weight: 400;
+    font-size: medium;
+}
+
+
